@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace _7_OOP1
 {
@@ -14,20 +14,20 @@ namespace _7_OOP1
 
     public class Player 
     {
-        public int Health;
-        public int Stamina;
-        public int Attack;
+        int Health;
+        int Stamina;
+        int Damage;
 
-        public Player(int health, int stamina, int attack)
+        public Player(int health, int stamina, int damage)
         {
             Health = health;
             Stamina = stamina;
-            Attack = attack;
+            Damage = damage;
         }
 
         public void ShowStats()
         {
-            Console.WriteLine("Здоровье - " + Health + "\nВыносливость - " + Stamina + "\nАтака - " + Attack);
+            Console.WriteLine("Здоровье - " + Health + "\nВыносливость - " + Stamina + "\nАтака - " + Damage);
         }
     }
 }
