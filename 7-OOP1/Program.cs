@@ -14,9 +14,9 @@ namespace _7_OOP1
 
     public class Player 
     {
-        int Health;
-        int Stamina;
-        int Damage;
+        private int Health;
+        private int Stamina;
+        private int Damage;
 
         public Player(int health, int stamina, int damage)
         {
