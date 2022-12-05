@@ -14,20 +14,20 @@ namespace _7_OOP1
 
     public class Player 
     {
-        private int Health;
-        private int Stamina;
-        private int Damage;
+        private int _health;
+        private int _stamina;
+        private int _damage;
 
         public Player(int health, int stamina, int damage)
         {
-            Health = health;
-            Stamina = stamina;
-            Damage = damage;
+            _health = health;
+            _stamina = stamina;
+            _damage = damage;
         }
 
         public void ShowStats()
         {
-            Console.WriteLine("Здоровье - " + Health + "\nВыносливость - " + Stamina + "\nАтака - " + Damage);
+            Console.WriteLine("Здоровье - " + _health + "\nВыносливость - " + _stamina + "\nАтака - " + _damage);
         }
     }
 }
